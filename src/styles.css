@@ -1,1 +1,91 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/purple-green.css';
+
+html, body { height: 100%; }
+body { 
+  margin: 0; 
+  font-family: Roboto, "Helvetica Neue", sans-serif;     
+}
+
+.mat-toolbar {
+  height: 150px;
+  font-size: 90px;
+  font-family: 'Lucida Sans';
+  font-style: italic;
+  font-weight: bold;
+}
+
+.mat-nav-list {
+  text-align: center;
+  background-color: lightseagreen;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.nav-link {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.activeMenuLink {
+  color: white !important;
+}
+
+.mat-grid-list3 {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.mat-grid-tile3 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.alink {
+  color: black;
+  text-decoration: none;
+}
+
+.main-text {
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 17px;
+  line-height: 25px;
+  text-indent: 20px;
+}
+
+.picture {
+  width: 60%;
+}
+
+.picture2 {
+  width: 90%;
+}
+
+.picture2h {
+  width: 50%;
+}
+
+.mat-grid-tile2 {
+  text-align: center;
+  font-size: 15px;
+}
+
+.button-mar {
+  margin-left: 220px !important;
+  margin-bottom: 20px !important;
+}
+
+.button-cen {
+  margin-left: 40% !important;
+}
+
+.picture3 {
+  width: 130px;
+}
