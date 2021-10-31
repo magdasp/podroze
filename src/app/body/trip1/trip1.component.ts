@@ -11,5 +11,8 @@ export class Trip1Component implements OnInit {
 
   ngOnInit(): void {
   }
-
+  
+  openMap(): void {
+    window.open('https://goo.gl/maps/KwT9TiotVCn2MkqcA');
+  }
 }
