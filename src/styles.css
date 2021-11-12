@@ -8,11 +8,13 @@ body {
 }
 
 .mat-toolbar {
-  height: 150px;
+  height: max-content;
+  min-height: 150px;
   font-size: 90px;
   font-family: 'Lucida Sans';
   font-style: italic;
   font-weight: bold;
+  flex-wrap: wrap;
 }
 
 .mat-nav-list {
@@ -43,7 +45,7 @@ body {
 
 .mat-grid-tile3 {
   text-align: center;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .alink {
