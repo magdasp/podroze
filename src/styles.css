@@ -17,6 +17,18 @@ body {
   flex-wrap: wrap;
 }
 
+@media only screen and (max-width: 1050px) {
+  .mat-toolbar {
+      font-size: 80px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .mat-toolbar {
+      font-size: 60px;
+  }
+}
+
 .mat-nav-list {
   text-align: center;
   background-color: lightseagreen;
